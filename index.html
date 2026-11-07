@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agence IA — Studio Photo Pixel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="topbar">
+  <h1>📸 AGENCE IA — STUDIO PHOTO</h1>
+  <div id="clock">JOUR 1 — 09:00</div>
+</header>
+
+<main id="layout">
+  <section id="game-wrap">
+    <canvas id="game" width="960" height="640"></canvas>
+    <div id="legend">
+      <span>🟦 Communication</span><span>🟪 Création de contenu</span><span>🟧 Prospection</span>
+      <span>🟩 Veille concu.</span><span>🟢 Recherche clients</span><span>⭐ Superviseur</span>
+    </div>
+  </section>
+
+  <aside id="sidebar">
+    <div class="panel" id="agents-panel">
+      <h2>AGENTS</h2>
+      <ul id="agents-list"></ul>
+    </div>
+    <div class="panel" id="log-panel">
+      <h2>JOURNAL DES DÉCISIONS</h2>
+      <ul id="log"></ul>
+    </div>
+  </aside>
+</main>
+
+<script src="game.js"></script>
+</body>
+</html>
